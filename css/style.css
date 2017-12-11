@@ -27,6 +27,11 @@ section.bg{
   text-align: center;
   font-size: 20px;
 }
+.slide2-title{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
 .info-footer{
   text-align: center;
   border: 1px solid white;
