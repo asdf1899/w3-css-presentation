@@ -54,15 +54,21 @@ section.stile-bg{
   background-color: white;
   color: #11998e;
 }
+#stile-generic-div{
+  text-align: center;
+}
 .stile-box{
-  margin: auto;
+  margin: 1%;
   margin-top: 5%;
   height: 100%;
-  width: 70%;
+  width: 40%;
   border: 1px solid lightgray;
   border-radius: 25px;
   background-color: rgb(190, 250, 190);
   color: transparent;
+  display: inline-block;
+  padding: 5px;
+  color: #11998e;
   /*box-shadow: 5px 5px 5px #888888;*/
 }
 .stile-box-text{
@@ -82,4 +88,8 @@ tr, td{
   padding: 2px;
   top: 10%;
   color: #11998e;
+}
+img{
+  padding:10px;
+  border-radius:8%;
 }
