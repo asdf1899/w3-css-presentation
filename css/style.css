@@ -82,6 +82,12 @@ section.stile-bg{
   border: 1px solid #11998e;
   border-radius: 25px;
 }
+.stile-rounded-corners{
+  border-radius:20px;
+}
+.stile-generic-bg-col{
+  background: rgb(190, 250, 190);
+}
 tr, td{
   border-bottom: 1px solid #11998e;
   margin: auto;
