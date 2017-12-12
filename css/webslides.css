@@ -169,11 +169,7 @@ q:before,
 q:after {
   content: ''; }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin-bottom: 24px;
-  width: 100%; }
+
 
 html {
   -ms-text-size-adjust: 100%;
@@ -2621,34 +2617,6 @@ img.avatar-80 {
   height: 80px;
   width: 80px; }
 
-/*=========================================
-13. Tables
-=========================================== */
-table {
-  margin-bottom: 3.2rem;
-  margin-top: 3.2rem; }
-
-td,
-th,
-thead {
-  border-spacing: 0;
-  padding: .7rem 2.4rem; }
-
-thead th,
-th {
-  cursor: default;
-  font-weight: 600;
-  text-align: left;
-  text-transform: uppercase;
-  white-space: nowrap; }
-
-thead,
-td.goals {
-  font-weight: 600;
-  text-shadow: none; }
-
-tr > td {
-  font-weight: 400; }
 
 /*=========================================
 14. Forms
@@ -3595,47 +3563,6 @@ Cards
        border-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent) 1 100%;
     border-left-width: 1px;
     border-style: solid; } }
-
-/*=========================================
-Tables
-=========================================== */
-table td,
-th,
-thead {
-  border: 1px solid rgba(0, 0, 0, 0.5); }
-
-thead {
-  background-color: rgba(0, 0, 0, 0.3); }
-
-tr:nth-child(even) > td {
-  background: rgba(0, 0, 0, 0.1); }
-
-tr > td {
-  border-top: 1px solid rgba(0, 0, 0, 0.5); }
-
-td:hover,
-tr:nth-child(even) > td:hover {
-  background-color: rgba(255, 255, 255, 0.5); }
-
-/*============================
-Browser (Screenshots)
-============================== */
-.browser {
-  border: 1px solid rgba(0, 20, 80, 0.1); }
-
-.browser:hover {
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1); }
-
-/*=== Topbar === */
-.browser:before {
-  background-color: rgba(0, 20, 80, 0.1);
-  border-bottom: 1px solid rgba(0, 20, 80, 0.2);
-  color: rgba(255, 255, 255, 0.9); }
-
-.browser:hover:before {
-  background-color: rgba(0, 20, 80, 0.12);
-  color: #fff; }
 
 /*=========================================
 Forms

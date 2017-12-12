@@ -69,3 +69,17 @@ section.stile-bg{
   margin: 1% 5%;
   color: #11998e;
 }
+.stile-table{
+  background-color: rgb(190, 250, 190);
+  width: 60%;
+  margin: auto;
+  border: 1px solid #11998e;
+  border-radius: 25px;
+}
+tr, td{
+  border-bottom: 1px solid #11998e;
+  margin: auto;
+  padding: 2px;
+  top: 10%;
+  color: #11998e;
+}
